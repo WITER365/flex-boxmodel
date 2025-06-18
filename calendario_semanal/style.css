@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.calendar-container {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(3, 3, 3);
+    border: 1px solid #ccc;
+}
+
+.time-bar {
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+    padding-top: 40px;
+    width: 100px;
+}
+
+.time-bar > span {
+    border-bottom: dashed 1px #ccc;
+    height: 60px;
+    padding-left: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.day-column {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #ccc;
+}
+
+.day-header {
+    color: black;
+    height: 40px;
+    background-color: #a200ff;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+}
+
+.day-content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-grow: 1;
+    border-bottom: 1px solid #eee;
+    height: 720px;
+}
+
+.actividad1 {
+    background-color: rgb(98, 96, 189);
+    color: white;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+}
+
+.descanso {
+    background-color: rgb(206, 88, 88);
+    color: white;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+}
+
+.actividad2 {
+    background-color: rgb(98, 96, 189);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+}
+
+.actividad3 {
+    background-color: rgb(98, 96, 189);
+    color: white;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+}
+
+.actividad4 {
+    background-color: rgb(98, 96, 189);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+}
+
+.actividad5 {
+    background-color: rgb(98, 96, 189);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+}
+
+.actividad6 {
+    background-color: rgb(98, 96, 189);
+    color: white;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+}
+
+.actividad7 {
+    background-color: rgb(98, 96, 189);
+    color: white;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+}
+
+.actividad8 {
+    background-color: rgb(98, 96, 189);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+}
+
+.actividad9 {
+    background-color: rgb(98, 96, 189);
+    color: white;
+    height: 120px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+}
+
+.actividad10 {
+    background-color: rgb(98, 96, 189);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+}
+.transversal1 {
+    background-color: rgb(240, 0, 0);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 360px;
+}
+.transversal2 {
+    background-color: rgb(194, 27, 175);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 540px;
+}
+.transversal3 {
+    background-color: rgb(240, 0, 0);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 360px;
+}
+.hobbie1 {
+    background-color: rgb(250, 0, 0);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 360px;
+}
+.hobbie2 {
+    background-color: rgb(14, 115, 223);
+    color: rgb(255, 255, 255);
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 540px;
+}
+.hobbie3 {
+    background-color: rgb(223, 14, 14);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0px;
+}
+.hobbie4 {
+    background-color: rgb(0, 4, 255);
+    color: white;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+}
